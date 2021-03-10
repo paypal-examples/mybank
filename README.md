@@ -3,7 +3,7 @@
 This integration uses the JavaScript SDK to accept Mybank payments
 
 
-See a [hosted version](https://demo-mybank-js-sdk.herokuapp.com) of the sample
+See a [hosted version](https://mybank-paypal-js-sdk.herokuapp.com) of the sample
 
 
 ### How to run locally

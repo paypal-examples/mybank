@@ -40,16 +40,8 @@ body {
 
 #mybank-container {
   padding-top: 1rem;
-  padding-left: 27px;
-  padding-right: 27px;
 }
 
-#mybank-btn {
-  margin-left: 30px;
-  margin-right: 30px;
-}
 #paypal-btn {
   margin-top: 1rem;
-  margin-left: 30px;
-  margin-right: 30px;
 }
