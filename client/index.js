@@ -78,8 +78,7 @@ paypal
     },
     fields: {
       name: {
-        value: '',
-        hidden: false,
+        value: ''
       },
     },
   })
@@ -88,7 +87,6 @@ paypal
 paypal
   .Buttons({
     fundingSource: paypal.FUNDING.MYBANK,
-
     style: {
       label: 'pay',
     },
