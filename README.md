@@ -1,6 +1,11 @@
-# Paying with Mybank
+# Paying with Mybank or PaypPal on the web
 
-This integration uses the JavaScript SDK to accept Mybank payments
+<p>
+<img src="https://www.paypalobjects.com/images/checkout/latinum/Altpay_logo_mybank.svg" alt="MyBank Logo">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" width="90px" alt="Paypal Logo">
+</p>
+
+This integration uses the JavaScript SDK to accept Mybank of PayPal payments on the web
 
 
 See a [hosted version](https://mybank-paypal-js-sdk.herokuapp.com) of the sample

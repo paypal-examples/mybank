@@ -8,11 +8,7 @@ const order = {
         value: '49.11',
       },
     },
-  ],
-  application_context: {
-    return_url: `${window.location.origin}/success.html`,
-    cancel_url: `${window.location.origin}/cancel.html`,
-  },
+  ]
 }
 
 /* Paypal */
@@ -48,9 +44,8 @@ paypal
   .render('#mybank-mark')
 
 paypal
-  .Fields({
+  .PaymentFields({
     fundingSource: paypal.FUNDING.MYBANK,
-    upgradeLSAT: true,
     style: {
       base: {
         backgroundColor: 'white',
@@ -115,6 +110,8 @@ paypal
   .render('#mybank-btn')
 
 /* radio buttons */
+document.getElementById('mybank-container').style.display = 'none'
+document.getElementById('mybank-btn').style.display = 'none'
 
 // Listen for changes to the radio buttons
 document.querySelectorAll('input[name=payment-option]').forEach(el => {
@@ -140,6 +137,3 @@ document.querySelectorAll('input[name=payment-option]').forEach(el => {
     }
   })
 })
-
-document.getElementById('mybank-container').style.display = 'none'
-document.getElementById('mybank-btn').style.display = 'none'
