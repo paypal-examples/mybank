@@ -1,4 +1,4 @@
-# Paying with Mybank or PaypPal on the web
+# Paying with Mybank or PayPal on the web
 
 <p>
 <img src="https://www.paypalobjects.com/images/checkout/latinum/Altpay_logo_mybank.svg" alt="MyBank Logo">
